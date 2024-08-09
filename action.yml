@@ -1,8 +1,8 @@
-name: 'Jira Login V3'
+name: 'Jira Login V4'
 description: 'Log in to Jira Cloud instance'
 branding:
   icon: 'log-in'
   color: 'blue'
 runs:
-  using: 'node18'
+  using: 'node20'
   main: './dist/index.js'
