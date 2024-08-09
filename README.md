@@ -30,7 +30,7 @@ jobs:
     name: Jira Example
     steps:
     - name: Login
-      uses: atlassian/gajira-login@v3
+      uses: atlassian/gajira-login-fork@v3
       env:
         JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
         JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
